@@ -1,0 +1,95 @@
+.navbar-brand span{
+    color: #5e13ad;
+}
+.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand{
+     padding-right: 300px;
+     font-weight: bold;
+     padding-left: 20px;
+     font-size: 23px;
+}
+
+
+.navbar-nav .nav-item .nav-link{
+    padding: 10px;
+    margin: 0px;
+    color: black;
+    font-size: 20px;
+    padding-left: 60px;
+}
+.navbar-nav .nav-item .nav-link i{
+    padding-left: 20px;
+    padding-right: 5PX;
+}
+
+.collapse{
+    background-color: #5e13ad;
+    border-radius: 170px 0 0  0;
+    margin: 0px;
+    padding: 10px
+}
+.vide {
+    width: 100%;
+    height: 700px;
+}
+.vide .type{
+    color: #5e13ad;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 50px;
+    margin-top: 8%;
+    margin-left: 25%;
+    font-family: cursive;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.newcollection{
+    background-color: #dfccf3;
+    padding-left: 90px;
+}
+.title h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+.cards{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.cards img{
+    width: 100%;
+    height: 100%;    
+}
+.test h5{
+    font-family: sans-serif;
+}
+.test i{
+    padding: 5px;
+    font-size: 20px;
+}
+.test i:hover{
+    color: #5e13ad;
+    font-size: 25px;
+}
+.test{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+}
+
