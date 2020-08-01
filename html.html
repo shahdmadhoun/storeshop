@@ -10,6 +10,7 @@
 </head>
 <body>
 
+  <!-- start navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
@@ -37,11 +38,22 @@
           </ul>
         </div>
       </nav>
+      <!-- end navbar -->
 
-      <section class="vide" data-vide-bg="./res/10" id="10">
+
+
+
+      <!-- start video -->
+      <section class="vide" data-vide-bg="./res/video.mp4" id="video">
          <h1><span class="type"></span></h1>
       </section>
 
+      <!-- end video -->
+
+
+
+
+      <!-- start new cllection -->
       <section class="newcollection">
         <div class="title">
           <h3>Spring Collection</h3>
@@ -49,11 +61,12 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="cards animate__animate animate__fadeIn">
-                <img src="./res/1.jpg" alt="new collection">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="cards animate__animate animate__fadeInLeft">
+                <img src="./res/1.jpg" onmouseover="this.src = './res/2.jpg'" 
+                onmouseout="this.src = './res/1.jpg'" alt="new collection">
                 <div class="test">
-                <h5>Spring Collection</h5>
+                <h5>Women's clothes</h5>
                 <i class="fas fa-cart-plus"></i>
                 <i class="fas fa-heart"></i>
                 <i class="fas fa-search-plus"></i>
@@ -61,11 +74,12 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="cards animate__animate animate__fadeIn">
-                <img src="./res/3.jpg" alt="new collection">
+                <img src="./res/3.jpg" onmouseover="this.src = './res/4.jpg'" 
+                onmouseout="this.src = './res/3.jpg'" alt="new collection">
                 <div class="test">
-                <h5>Spring Collection</h5>
+                <h5>men's clothing</h5>
                 <i class="fas fa-cart-plus"></i>
                 <i class="fas fa-heart"></i>
                 <i class="fas fa-search-plus"></i>
@@ -73,11 +87,25 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="cards animate__animate animate__fadeIn">
-                <img src="./res/6.jpg" alt="new collection">
+                <img src="./res/5.jpg" onmouseover="this.src = './res/6.jpg'" 
+                onmouseout="this.src = './res/5.jpg'" alt="new collection">
                 <div class="test">
-                <h5>Spring Collection</h5>
+                <h5>Children's clothing</h5>
+                <i class="fas fa-cart-plus"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-search-plus"></i>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="cards animate__animate animate__fadeInRight">
+                <img src="./res/7.jpg" onmouseover="this.src = './res/8.jpg'" 
+                onmouseout="this.src = './res/7.jpg'" alt="new collection">
+                <div class="test">
+                <h5>Accessories</h5>
                 <i class="fas fa-cart-plus"></i>
                 <i class="fas fa-heart"></i>
                 <i class="fas fa-search-plus"></i>
@@ -85,9 +113,168 @@
               </div>
             </div>
             
+            
           </div>
         </div>
       </section>
+
+      <!-- end new collection -->
+
+      <!-- start rait -->
+
+    <section class="text-center">
+
+      <div class="title">
+        <p>Rate our website .. Tell others what you think</p>
+      </div>
+      
+      <div class="title"><p id="avg">0.0</p></div>
+
+        <div class="rating"> 
+        <input type="radio" name="rating" value="5" id="5" onclick="myFunction()">
+        <label for="5">☆</label> 
+        <input type="radio" name="rating" value="4" id="4" onclick="myFunction()">
+        <label for="4">☆</label> 
+        <input type="radio" name="rating" value="3" id="3" onclick="myFunction()">
+        <label for="3">☆</label> 
+        <input type="radio" name="rating" value="2" id="2" onclick="myFunction()">
+        <label for="2">☆</label> 
+        <input type="radio" name="rating" value="1" id="1" onclick="myFunction()">
+        <label for="1">☆</label>
+      </div>
+      <div class="title"><p id="thank"></p></div>
+    </section>
+
+
+    <section class="newcollection">
+      <div class="title">
+        <h3>perfumes side</h3>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="cards animate__animate animate__fadeInLeft">
+              <img src="./res/9.jpg" onmouseover="this.src = './res/10.jpg'" 
+              onmouseout="this.src = './res/9.jpg'" alt="perfumes side">
+              <div class="test">
+              <h5>CHANEL</h5>
+              <i class="fas fa-cart-plus"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-search-plus"></i>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="cards animate__animate animate__fadeIn">
+              <img src="./res/11.png" onmouseover="this.src = './res/12.jpg'" 
+              onmouseout="this.src = './res/11.png'" alt="perfumes side">
+              <div class="test">
+              <h5>CHANEL</h5>
+              <i class="fas fa-cart-plus"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-search-plus"></i>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="cards animate__animate animate__fadeIn">
+              <img src="./res/13.jpg" onmouseover="this.src = './res/14.jpg'" 
+              onmouseout="this.src = './res/13.jpg'" alt="perfumes side">
+              <div class="test">
+              <h5>VERSACE</h5>
+              <i class="fas fa-cart-plus"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-search-plus"></i>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="cards animate__animate animate__fadeInRight">
+              <img src="./res/15.jpg" onmouseover="this.src = './res/16.jpg'" 
+              onmouseout="this.src = './res/15.jpg'" alt="perfumes side">
+              <div class="test">
+              <h5>VERSACE</h5>
+              <i class="fas fa-cart-plus"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-search-plus"></i>
+            </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section class="newcollection">
+      <div class="title">
+        <h3>Shoes side</h3>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="cards animate__animate animate__fadeInLeft">
+              <img src="./res/17.jpg" onmouseover="this.src = './res/18.jpg'" 
+              onmouseout="this.src = './res/17.jpg'" alt="perfumes side">
+              <div class="test">
+              <h5>woman's shoes</h5>
+              <i class="fas fa-cart-plus"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-search-plus"></i>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="cards animate__animate animate__fadeIn">
+              <img src="./res/19.jpg" onmouseover="this.src = './res/20.jpg'" 
+              onmouseout="this.src = './res/19.jpg'" alt="perfumes side">
+              <div class="test">
+              <h5>woman's shoes</h5>
+              <i class="fas fa-cart-plus"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-search-plus"></i>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="cards animate__animate animate__fadeIn">
+              <img src="./res/21.jpg" onmouseover="this.src = './res/22.jpg'" 
+              onmouseout="this.src = './res/21.jpg'" alt="perfumes side">
+              <div class="test">
+              <h5>Sport</h5>
+              <i class="fas fa-cart-plus"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-search-plus"></i>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="cards animate__animate animate__fadeInRight">
+              <img src="./res/23.jpg" onmouseover="this.src = './res/24.jpg'" 
+              onmouseout="this.src = './res/23.jpg'" alt="perfumes side">
+              <div class="test">
+              <h5>Sport</h5>
+              <i class="fas fa-cart-plus"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-search-plus"></i>
+            </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+
 
 
   
@@ -103,5 +290,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.2/umd/popper.min.js" integrity="sha256-XahKYIZhnEztrOcCTmaEErjYDLoLqBoDJbVMYybyjH8=" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/…/4.…/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha256-+izcH23qgte+aiGZRxk63BxGUyoQrAQZVoH2zKU9usM=" crossorigin="anonymous"></script>
 <script src="javascript.js"></script>
+
 </body>
 </html>

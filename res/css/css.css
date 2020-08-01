@@ -31,6 +31,8 @@
     margin: 0px;
     padding: 10px
 }
+
+/* start vedio */
 .vide {
     width: 100%;
     height: 700px;
@@ -49,22 +51,25 @@
     word-spacing: 3px;
     letter-spacing: 2px;
 }
+
+/* new collection */
 .newcollection{
     background-color: #dfccf3;
-    padding-left: 90px;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 .title h3{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
 }
 .cards{
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 350px;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
 }
 
@@ -73,7 +78,8 @@
     height: 100%;    
 }
 .test h5{
-    font-family: sans-serif;
+    font-family: cursive;
+    letter-spacing: 1.7px;
 }
 .test i{
     padding: 5px;
@@ -88,8 +94,51 @@
     bottom: 0px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    width: 300px;
+    width: 250px;
     height: 80px;
     text-align: center;
 }
 
+/* start raiting */
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating input {
+    display: none
+}
+
+.rating label {
+    position: relative;
+    font-size: 80px;
+    color: #5e13ad;
+    cursor: pointer
+}
+
+.rating label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating label:hover:before,
+.rating label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover input:checked~label:before {
+    opacity: 0.4
+}
+.title p{
+font-family: cursive;
+font-size: 30px;
+padding-top: 40px;
+text-align: center;
+}
