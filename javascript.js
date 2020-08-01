@@ -5,9 +5,19 @@ var typed = new Typed (".vide span.type" ,{
     typeSpeed:50,
     backSpeed:50});
 
-function myFunction() {
+function myFunction(num) {
+
+    var avgvalue = document.getElementById("avg").innerHTML;
+
+    if(avgvalue == 0){
+        document.getElementById("avg").innerHTML =num;
+    }
+    else {
+    document.getElementById("avg").innerHTML = (avgvalue + num)/2;
+}
+
     
-    document.getElementById("thank").innerHTML = "Thank you ";
+    document.getElementById("thank").innerHTML = "Thank you " + num;
 
 
       }

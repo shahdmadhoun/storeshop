@@ -65,8 +65,8 @@
     text-align: center;
 }
 .cards{
-    width: 250px;
-    height: 350px;
+    width: 230px;
+    height: 330px;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-duration: 2s;
@@ -94,7 +94,7 @@
     bottom: 0px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    width: 250px;
+    width: 230px;
     height: 80px;
     text-align: center;
 }
@@ -141,4 +141,72 @@ font-family: cursive;
 font-size: 30px;
 padding-top: 40px;
 text-align: center;
+}
+
+/* footer */
+.footer-top {
+    background-color: #5e13ad;
+    padding: 80px 0;
+
+}
+.part-two h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: black;
+}
+.part-two h2::before{
+    content: '|' ;
+    color: black;
+    padding-right: 5px;
+}
+.part-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.part-two ul li{
+    line-height: 40px;
+    border-bottom: 1px solid #dfccf3;
+    width: 240px;
+
+}
+.part-two ul li a{
+    text-decoration: none;
+    color: #dfccf3;
+}
+.part{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: black;
+}
+.part h2::before{
+    content: '|' ;
+    color: black;
+    padding-right: 5px;
+}
+.part a{
+    background-color: #dfccf3;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.part a i{
+    font-size: 20px;
+    color: #5e13ad;
+    padding: 8px 8px;
+}
+.part input[type=submit]{
+    background-color: #dfccf3;
+    border: none;
+    padding: 3px 15px;
+    color: black;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+.part input[type=text]{
+    border: none;
+
 }
