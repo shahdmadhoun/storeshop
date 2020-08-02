@@ -146,7 +146,7 @@ text-align: center;
 /* footer */
 .footer-top {
     background-color: #5e13ad;
-    padding: 80px 0;
+    padding: 50px 0;
 
 }
 .part-two h2{
@@ -167,13 +167,13 @@ text-align: center;
 }
 .part-two ul li{
     line-height: 40px;
-    border-bottom: 1px solid #dfccf3;
-    width: 240px;
+    border-bottom: 1px solid black;
+    width: 230px;
 
 }
 .part-two ul li a{
     text-decoration: none;
-    color: #dfccf3;
+    color: black;
 }
 .part{
     font-family: 'Courier New', Courier, monospace;
@@ -206,7 +206,29 @@ text-align: center;
     text-transform: uppercase;
     margin: 5px 0;
 }
-.part input[type=text]{
+.footer-bottom{
+    text-align: center;
+    background-color: #7b00ff;
+    line-height: 50px;
+}
+
+/* login form */
+.form{
+    padding: 50px;
+    margin: 70px 50px;
+    background: linear-gradient(90deg ,#e5d4f8 , #d2adfc , #a969f3   , #9832ff );
+
+}
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #5e13ad;
     border: none;
+    padding: 3px 15px;
+    color: black;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+.btn:hover{
+    background-color: #7b00ff;
 
 }

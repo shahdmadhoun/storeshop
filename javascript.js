@@ -5,19 +5,25 @@ var typed = new Typed (".vide span.type" ,{
     typeSpeed:50,
     backSpeed:50});
 
+    var counter = 0;
+
 function myFunction(num) {
+    counter++;
 
-    var avgvalue = document.getElementById("avg").innerHTML;
 
-    if(avgvalue == 0){
+    var sum = 0;
+    sum = document.getElementById("avg").innerHTML;
+
+    if(sum == 0){
         document.getElementById("avg").innerHTML =num;
     }
     else {
-    document.getElementById("avg").innerHTML = (avgvalue + num)/2;
-}
+        var todigit = (parseInt( sum) +parseInt( num))/2;
+        n = todigit.toFixed(2);
+        document.getElementById("avg").innerHTML = n}
 
-    
-    document.getElementById("thank").innerHTML = "Thank you " + num;
+
+    document.getElementById("thank").innerHTML = "Thank you " ;
 
 
       }
