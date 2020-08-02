@@ -5,25 +5,22 @@ var typed = new Typed (".vide span.type" ,{
     typeSpeed:50,
     backSpeed:50});
 
-    var counter = 0;
 
 function myFunction(num) {
-    counter++;
+    var sum = document.getElementById("avg").innerHTML;
 
-
-    var sum = 0;
-    sum = document.getElementById("avg").innerHTML;
-
-    if(sum == 0){
-        document.getElementById("avg").innerHTML =num;
+    if(parseFloat(sum)  == 0){
+        document.getElementById("avg").innerHTML =parseFloat(num);
     }
     else {
-        var todigit = (parseInt( sum) +parseInt( num))/2;
+        var todigit = (parseFloat(sum) +parseFloat(num))/2;
         n = todigit.toFixed(2);
-        document.getElementById("avg").innerHTML = n}
+        document.getElementById("avg").innerHTML = n;
+    }
 
 
     document.getElementById("thank").innerHTML = "Thank you " ;
+
 
 
       }
