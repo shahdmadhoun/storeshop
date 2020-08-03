@@ -25,3 +25,32 @@ function myFunction(num) {
 
       }
 
+
+function singin() {
+    
+    var Size = document.getElementById("inputCountry").value;
+
+    if (Size == "palestine") {
+        document.getElementById("inputCity").disabled = true;
+        
+    }
+
+}
+
+
+function mybag() {
+
+    var Size = document.getElementById("Size").value;
+    var Color = document.getElementById("Color").value;
+
+    var stack = [];
+
+    stack.push(Size);
+    stack.push(Size);
+
+
+    var x = document.getElementById("Size").value;
+    var final = document.getElementById("final");
+    final.innerHTML = stack[1];
+          
+      }
