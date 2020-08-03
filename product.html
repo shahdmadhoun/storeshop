@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./res/css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- start navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="./res/logo.png" width="60" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Our<span>Store</span>
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="html.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><i i class="fa fa-users" aria-hidden="true"></i>About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="my bag.html" class="nav-link"><i class="fas fa-cart-plus" aria-hidden="true"></i>My bag</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i>Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navbar -->
+
+      <section>
+          <div class="container">
+              <div class="row">
+                  <div class="info col-lg-5 col-md-6 col-sm-12">
+                    <img src="./res/1.jpg">
+                  </div>
+
+                  <div class="info col-lg-7 col-md-6 col-sm-12">
+                    <div>
+                        <h5>Women's clothes</h5>
+                        <i class="fas fa-cart-plus"></i>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero numquam mollitia tenetur totam fugiat, dolor minima quasi ipsum tempore! Eligendi deleniti praesentium eum deserunt accusantium dolore quod, a autem.</p>
+                   
+
+                      <form action="shahd.php" method="POST">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Size</label>
+                          <select id="Size">
+                            <option></option>
+                            <option value="XSmall">XSmall</option>
+                            <option value="Small">Small</option>
+                            <option value="Large">Large</option>
+                            <option value="Xlarge">Xlarge</option>
+                          </select>
+
+                          <label for="exampleInputEmail1">Color</label>
+                          <select id="Color">
+                            <option></option>
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Green">Green</option>
+                            <option value="Blue">Blue</option>
+                          </select>
+                        </div>
+                      </form>
+
+                      <div>
+                        <p>Price $<span>100</span></p>
+                      </div>  
+                      <div>
+                        <button type="submit" class="btn btn-primary" onclick="mybag()">Add to My bag</button>
+                      </div>
+                  
+                    </div>
+              </div>
+          </div>
+      </section>
+
+      <section>
+        <div class="container">
+            <div class="row">
+                <div class="info col-lg-5 col-md-6 col-sm-12">
+                  <img src="./res/2.jpg">
+                </div>
+
+                <div class="info col-lg-7 col-md-6 col-sm-12">
+                  <div>
+                      <h5>Women's clothes</h5>
+                      <i class="fas fa-cart-plus"></i>
+                      <i class="fas fa-heart"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero numquam mollitia tenetur totam fugiat, dolor minima quasi ipsum tempore! Eligendi deleniti praesentium eum deserunt accusantium dolore quod, a autem.</p>
+
+                    
+                    <form action="shahd.php" method="POST">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Size</label>
+                        <select id="Size">
+                          <option></option>
+                          <option value="XSmall">XSmall</option>
+                          <option value="Small">Small</option>
+                          <option value="Large">Large</option>
+                          <option value="Xlarge">Xlarge</option>
+                        </select>
+
+                        <label for="exampleInputEmail1">Color</label>
+                        <select id="Color">
+                          <option></option>
+                          <option value="Black">Black</option>
+                          <option value="Red">Red</option>
+                          <option value="Green">Green</option>
+                          <option value="Blue">Blue</option>
+                        </select>
+                      </div>
+                    </form>
+
+                    <div>
+                      <p>Price $<span>100</span></p>
+                    </div>
+
+                    <div>
+                      <button type="submit" class="btn btn-primary" onclick="mybag">Add to My bag</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- login form -->
+
+
+
+      <!-- footer -->
+
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-3 col-sm-6 col-xs-12 part">
+              <h2>Our Store</h2>
+            <p>Welcome all to our website, We deliver to all over the world, Be near from us</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-xs-12 part-two">
+              <h2>Quick links</h2>
+              <ul>
+                <li><a href="html.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="my bag.html">My bag</a></li>
+                <li><a href="login.html">Login</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-xs-12 part">
+              <h2>Follow Us</h2>
+              <p>Pleas Follow us on our social Media profile in order to keep updated.</p>
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-pinterest"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 col-xs-12 part">
+              <h2>Rate </h2>
+              <p>Give us your opinion to help us develop the site</p>
+              <form action="shahd.php" method="POST">
+                <input type="text">
+                <input type="submit" value="submit">
+ 
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <p class="footer-bottom">
+        All Right reserved by &copy;Our Store
+      </p>
+    </footer>
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="javascript.js"></script>
+
+</body>
+</html>

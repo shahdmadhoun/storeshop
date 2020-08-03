@@ -5,8 +5,8 @@ var typed = new Typed (".vide span.type" ,{
     typeSpeed:50,
     backSpeed:50});
 
-
 function myFunction(num) {
+    
     var sum = document.getElementById("avg").innerHTML;
 
     if(parseFloat(sum)  == 0){
@@ -24,3 +24,4 @@ function myFunction(num) {
 
 
       }
+

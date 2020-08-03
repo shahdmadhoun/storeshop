@@ -81,9 +81,10 @@
     font-family: cursive;
     letter-spacing: 1.7px;
 }
-.test i{
+.test a i{
     padding: 5px;
     font-size: 20px;
+    color: white;
 }
 .test i:hover{
     color: #5e13ad;
@@ -232,3 +233,20 @@ text-align: center;
     background-color: #7b00ff;
 
 }
+
+/* info page */
+.info img{
+    width: 340px;
+    height: 440px;
+}
+.info{
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+.info h5 {
+    padding-top: 20px;
+    font-family: cursive;
+    letter-spacing: 1.7px;
+}
+
